@@ -59,6 +59,15 @@ const lista = [1,2,3,4,5];
 console.log(filterAndSum(lista,3)) //[1,2,4,5]
 console.log(lista) //[1,2,3,4,5]
 
+const lista = [1,2,3,4,5];
+function filterAndSum(numbers, target){
+   return numbers.filter(numbers => {
+    return numbers <= target;
+  });
+}
+console.log(filterAndSum(lista, 3));
+console.log(lista)
+
 //punto extra
 /*
 function sum (lista){
